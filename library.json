@@ -1,0 +1,26 @@
+{
+  "name": "RCSwitchRmt",
+  "description": "RF OOK library for ESP32 using the RMT peripheral with multitasking TX/RX. A modern asynchronous replacement for rc-switch.",
+  "keywords": ["rf", "rmt", "esp32", "ook", "transmitter", "receiver", "multitask", "upartech"],
+  "authors": [
+    {
+      "name": "Efrain Ovalle (Upartech)",
+      "maintainer": true,
+      "url": "https://github.com/Upartech"
+    },
+    {
+      "name": "Suat Ozgur",
+      "url": "https://github.com/sui77/rc-switch",
+      "maintainer": false
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Upartech/RCSwitchRmt.git"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"],
+  "headers": ["RCSwitchRmt.h"]
+}
