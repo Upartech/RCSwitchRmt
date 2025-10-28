@@ -384,3 +384,5 @@ bool try_decode_with_proto_(const Protocol& P,
   void buildSymbolsAppend_(uint32_t code, uint8_t nbits, rmt_symbol_word_t* sym, size_t& k) const;
   bool startNextBurst_();
 };
+#endif
+
